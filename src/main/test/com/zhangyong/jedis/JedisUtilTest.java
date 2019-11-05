@@ -12,7 +12,7 @@ import java.util.Map;
  * @Date 2019/10/28 14:31
  * @Version 1.0
  */
-class JedisUtilTest {
+public class JedisUtilTest {
     @Test
     public void mapHset() {
         long res = JedisUtil.mapHset("map", "name", "zhangsan");
